@@ -244,8 +244,12 @@ a{
 
 .hero-text{
    position: absolute;
-   top: 35%;
-   left: 30%;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+   padding-top: 250px;
 }
 .hero-text .h1-heading{
 	margin: 10px 0;
